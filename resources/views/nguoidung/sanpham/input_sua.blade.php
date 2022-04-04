@@ -1,0 +1,2 @@
+<input class="form-control" type="text" id="binh_luan_sua" value="{{ $binhluan->noi_dung }}">
+<button onclick="luubinhluan_sp({{$binhluan->ma_bl}})" href="javascript:"  class="mt-2 btn btn-primary">Lưu lại</button>
